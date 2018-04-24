@@ -1,0 +1,21 @@
+{
+  "name": "sdhacks-cta",
+  "version": "1.0.0",
+  "description": "Call To Action Page For SDHacks 2018",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UCSDTESC/SDHacksCTA.git"
+  },
+  "author": "Triton Engineering Student Council Technical Team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UCSDTESC/SDHacksCTA.git/issues"
+  },
+  "homepage": "https://github.com/UCSDTESC/SDHacksCTA#readme",
+  "devDependencies": {
+    "bootstrap": "^4.0.0-beta.2",
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
+}
