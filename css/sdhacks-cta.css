@@ -5955,27 +5955,9 @@ h1 {
     .companies__logo:hover {
       padding: 0.5rem; }
 
-.company-table {
-  font-size: 0.9rem;
-  padding: 2rem; }
-  .company-table th {
-    width: 25%;
-    border: none;
-    vertical-align: middle;
-    font-weight: normal; }
-  .company-table tr:nth-child(2) td {
-    border: none; }
-  .company-table td {
-    border-color: #F5F8FA;
-    border-width: 2px;
-    vertical-align: middle; }
-  .company-table__header {
-    background-color: #F5F8FA;
-    color: #A4A8AC; }
-
 .contact {
   text-align: center;
-  background: linear-gradient(to right top, #A3DAE8, #F7EEDF);
+  background: linear-gradient(to right bottom, #19A3C5, #91D3E3);
   height: 18rem;
   position: relative; }
   .contact:after {
@@ -6049,7 +6031,7 @@ h1 {
         color: #fff;
         text-decoration: none; }
     .event__header--secondary {
-      background: linear-gradient(to right top, #A3DAE8, #F7EEDF); }
+      background: linear-gradient(to right bottom, #19A3C5, #91D3E3); }
     .event__header--tertiary {
       background: linear-gradient(to right top, #F17879, #F6B745); }
   .event__date {
@@ -6096,7 +6078,7 @@ h1 {
     right: 0.5rem;
     top: calc(50% - 0.2rem); }
   .filter__badge {
-    background: linear-gradient(to right top, #A3DAE8, #F7EEDF);
+    background: linear-gradient(to right bottom, #19A3C5, #91D3E3);
     color: #fff; }
   .filter__clear {
     background: transparent;
@@ -6105,18 +6087,6 @@ h1 {
     .filter__clear:hover, .filter__clear:focus {
       background: linear-gradient(to right top, #f24141, #e76d52);
       color: #fff; }
-
-.flo {
-  margin: 5rem 0;
-  text-align: center; }
-  @media (min-width: 768px) {
-    .flo {
-      margin: 8rem 0; } }
-  .flo__header {
-    margin-bottom: 2rem; }
-  .flo__contents {
-    font-size: 1.1rem;
-    color: #5A5A5A; }
 
 .footer {
   margin: 3rem 0 3rem;
@@ -6180,7 +6150,7 @@ h1 {
 .hero {
   width: 100%;
   height: 100%;
-  background: #75C8DC;
+  background: linear-gradient(20deg, #75C8DC 33%, #AA8DC5 33%);
   color: #fff; }
   .hero--sponsor {
     background: linear-gradient(to right top, #237EF1, #34D9F7);
@@ -6204,11 +6174,11 @@ h1 {
     font-size: 1.3rem; }
   .hero__feature-image {
     padding-bottom: 3em;
-    margin-top: 3.5rem;
-    -webkit-filter: drop-shadow(5px 5px 5px #808080);
-    filter: drop-shadow(7px 7px -5px #808080);
-    margin-left: 10rem;
-    transform: rotate(15deg); }
+    margin-top: 5rem;
+    -webkit-filter: drop-shadow(8px 8px 7px #808080);
+    filter: drop-shadow(8px 8px 7px #808080);
+    margin-left: 10.5rem;
+    transform: rotate(20deg); }
   .hero__cta {
     margin-top: 4.2rem; }
 
@@ -6220,12 +6190,12 @@ h1 {
   .map__button {
     text-align: center;
     padding: 1px 1px 1rem 1px;
-    background: linear-gradient(to right top, #A3DAE8, #F7EEDF);
+    background: linear-gradient(to right bottom, #19A3C5, #91D3E3);
     color: #fff;
     width: auto; }
     .map__button:hover, .map__button:active {
       color: #e6e6e6;
-      background: linear-gradient(to right top, #A3DAE8, #F7EEDF) !important; }
+      background: linear-gradient(to right bottom, #19A3C5, #91D3E3) !important; }
   .map__image {
     margin: 0 auto 1rem; }
 
@@ -6248,12 +6218,6 @@ h1 {
   .nav__logo {
     height: 2rem; }
 
-.tabling {
-  margin: 5rem 0; }
-  .tabling__header {
-    margin-bottom: 2rem;
-    text-align: center; }
-
 .white-button {
   min-width: 10rem;
   padding: 0.5rem 1rem;
@@ -6261,7 +6225,7 @@ h1 {
   background: #fff;
   border: 2px solid #fff;
   border-radius: 0.3rem;
-  color: #19A3C5;
+  color: #0D5166;
   display: inline-block;
   transition: background 100ms linear, color 100ms linear; }
   .white-button:hover {
