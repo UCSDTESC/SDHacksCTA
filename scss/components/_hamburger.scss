@@ -24,21 +24,21 @@
     }
 
     &--cta {
-      background-color: $decaf-dark-green;
+      background-color: $dark-blue;
       border-radius: $border-radius;
     }
 
     &--sponsor-cta {
-      background-color: $decaf-dark-blue;
+      background-color: $gradient-dark-blue;
       border-radius: $border-radius;
     }
   }
 
   &__link {
-    color: $decaf-dark-green;
+    color: $dark-blue;
 
     &:hover {
-      color: $decaf-dark-green;
+      color: $dark-blue;
       text-decoration: none;
     }
 
@@ -52,10 +52,10 @@
     }
 
     &--sponsor {
-      color: $decaf-dark-blue;
+      color: $gradient-dark-blue;
       
       &:hover {
-        color: $decaf-dark-blue;
+        color: $gradient-dark-blue;
         text-decoration: none;
       }
     }

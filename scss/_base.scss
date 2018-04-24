@@ -7,20 +7,12 @@ $border-radius: 0.3rem;
 
 $white: #fff;
 
-$decaf-dark-blue: #237EF1;
-$decaf-light-blue: #34D9F7;
-$decaf-dark-green: #1fd46d;
-$decaf-light-green: #6CE5AB;
+$gradient-dark-blue: #237EF1;
+$gradient-light-blue: #34D9F7;
 $tesc-blue: #004E74;
 
-$decaf-dark-yellow: #F17879;
-$decaf-light-yellow: #F6B745;
-$decaf-dark-red: #f24141;
-$decaf-light-red: #e76d52;
 
-$decaf-gradient: linear-gradient(to right top, $decaf-dark-blue, $decaf-light-blue);
-$decaf-yellow-gradient: linear-gradient(to right top, $decaf-dark-yellow, $decaf-light-yellow);
-$decaf-red-gradient: linear-gradient(to right top, $decaf-dark-red, $decaf-light-red);
+$cta-gradient: linear-gradient(to right top, $gradient-dark-blue, $gradient-light-blue);
 
 $link-active: $white;
 $link-inactive: transparentize($link-active, 0.2);
@@ -94,5 +86,4 @@ $extended-shadow: 0 2px 22px $default-shadow-color;
 $default-card-radius: 10px;
 $default-card-border: 2px solid $default-purple;
 
-$decaf-student-gradient: linear-gradient(to right bottom, $primary-color, $beach-blue);
-$hero-gradient: linear-gradient(to right top, $default-blue, $light-green);
+$contact-gradient: linear-gradient(to right bottom, $light-purple 33%, $default-purple);

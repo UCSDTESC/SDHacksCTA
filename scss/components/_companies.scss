@@ -53,4 +53,17 @@ $logo-hover-padding: 0.5rem;
       padding: $logo-hover-padding;
     }
   }
+
+  &__contact {
+    font-size: 1.1rem;
+
+    &-link {
+      color: $dark-blue;
+      text-decoration: underline;
+
+      &:hover {
+        color: $default-purple;
+      }
+    }
+  }
 }
