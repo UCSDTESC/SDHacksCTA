@@ -2,8 +2,7 @@
   width: 100%;
   height: 100%;
   background: linear-gradient(20deg, $default-blue 33%, $default-purple 33%);
-  
-  //$decaf-student-gradient;
+  overflow: auto;  
   color: $hero-font-color;
 
   &--sponsor {
@@ -49,6 +48,6 @@
   }
 
   &__cta {
-    margin-top: 4.2rem;
+    margin-top: 2.2rem;
   }
 }
