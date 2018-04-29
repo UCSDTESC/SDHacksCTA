@@ -6041,6 +6041,9 @@ h1 {
     .hero__signup-input {
       left: 0;
       width: 75% !important; }
+      @media (max-width: 1023.98px) {
+        .hero__signup-input {
+          width: 100% !important; } }
 
 .nav {
   padding: 2rem 0; }

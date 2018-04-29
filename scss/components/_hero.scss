@@ -56,7 +56,11 @@
     text-align: left;
     &-input {
       left: 0;
-      width : 75% !important;
+      width: 75% !important;
+
+      @include media-breakpoint-down(md) {
+        width: 100% !important;
+      }
     }
   }
 }
