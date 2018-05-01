@@ -6002,7 +6002,13 @@ h1 {
 .hero {
   width: 100%;
   height: 100%;
-  background: linear-gradient(152deg, #75C8DD 0, #75C8DD 34%, #91D3E3 34%, #91D3E3 54%, #F7E5C6 54%, #F7E5C6 72%, #F7EEDF 72%, #F7EEDF 88%, #92E3D6 88%, #92E3D6 100%);
+  background: linear-gradient(152deg, #75C8DD 0, #75C8DD 23rem, #91D3E3 23rem, #91D3E3 42rem, #F7E5C6 42rem, #F7E5C6 56rem, #F7EEDF 56rem, #F7EEDF 70rem, #92E3D6 70rem, #92E3D6 100%);
+  background-repeat: no-repeat;
+  /*linear-gradient(152deg, $default-blue 0, $default-blue 34%, 
+                                      $beach-blue 34%, $beach-blue 54%,
+                                      $beach-tan 54%, $beach-tan 72%,
+                                      $beach-lighttan 72%, $beach-lighttan 88%,
+                                      $light-green 88%, $light-green 100%);*/
   overflow: overlay;
   color: #fff; }
   .hero--sponsor {
