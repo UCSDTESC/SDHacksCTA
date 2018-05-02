@@ -1,4 +1,9 @@
 .hamburger {
+  &__container {
+    position: absolute;
+    right: 0;
+  }
+
   &__links {
     padding: 1rem;
     list-style: none;

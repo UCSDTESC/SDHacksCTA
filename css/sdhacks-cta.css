@@ -5853,6 +5853,29 @@ h1 {
   font-size: 1.8rem;
   color: #5A5A5A; }
 
+.action-button {
+  min-width: 10rem;
+  padding: 0.3rem 1rem;
+  margin: 1.5rem 0;
+  background: #0D5166;
+  border: 2px solid #0D5166;
+  border-radius: 0.3rem;
+  color: #fff;
+  display: inline-block;
+  transition: background 100ms linear, color 100ms linear; }
+  .action-button:hover {
+    cursor: pointer;
+    background: transparent;
+    color: #0D5166;
+    text-decoration: none;
+    border-width: 2px; }
+  .action-button--inline {
+    display: inline;
+    margin: 0;
+    min-width: 0; }
+  .action-button--sponsor {
+    color: #237EF1; }
+
 .companies {
   text-align: center;
   position: relative;
@@ -5913,8 +5936,7 @@ h1 {
     background-image: url(../assets/contact-clip.svg);
     background-position: bottom;
     background-size: cover;
-    background-repeat: no-repeat;
-    transform: rotate(180deg); }
+    background-repeat: no-repeat; }
   .contact--sponsor {
     background: linear-gradient(to right bottom, #C6AAE1 33%, #AA8DC5); }
   .contact__link {
@@ -5950,13 +5972,19 @@ h1 {
     color: #004E74; }
     .footer__link:hover {
       text-decoration: none; }
-  .footer__link-item:not(:first-child) {
-    margin-top: 1rem; }
-    @media (min-width: 768px) {
-      .footer__link-item:not(:first-child) {
-        margin-top: 0; } }
-  .footer__link-item--logo img {
-    width: 7rem; }
+  .footer__link-item {
+    font-size: 1.75rem; }
+    .footer__link-item:not(:first-child) {
+      margin-top: 1rem; }
+      @media (min-width: 768px) {
+        .footer__link-item:not(:first-child) {
+          margin-top: 0; } }
+    .footer__link-item--logo img {
+      width: 7rem; }
+
+.hamburger__container {
+  position: absolute;
+  right: 0; }
 
 .hamburger__links {
   padding: 1rem;
@@ -6001,29 +6029,28 @@ h1 {
 
 .hero {
   width: 100%;
-  height: 100%;
-  background: linear-gradient(152deg, #75C8DD 0, #75C8DD 23rem, #91D3E3 23rem, #91D3E3 42rem, #F7E5C6 42rem, #F7E5C6 56rem, #F7EEDF 56rem, #F7EEDF 70rem, #92E3D6 70rem, #92E3D6 100%);
+  min-height: 100vh;
+  background: url(/assets/gradient-bg.svg);
+  background-size: cover;
   background-repeat: no-repeat;
-  /*linear-gradient(152deg, $default-blue 0, $default-blue 34%, 
-                                      $beach-blue 34%, $beach-blue 54%,
-                                      $beach-tan 54%, $beach-tan 72%,
-                                      $beach-lighttan 72%, $beach-lighttan 88%,
-                                      $light-green 88%, $light-green 100%);*/
   overflow: overlay;
-  color: #fff; }
-  .hero--sponsor {
-    background: linear-gradient(to right top, #237EF1, #34D9F7);
-    color: #fff; }
+  color: #0D5166; }
   @media (min-width: 768px) {
     .hero {
-      min-height: 30rem; } }
+      min-height: 75vh; } }
+  .hero--sponsor {
+    background: linear-gradient(to right top, #237EF1, #34D9F7);
+    color: #0D5166; }
   .hero__logo {
     width: 10rem;
     margin: 5rem 0 2rem; }
   .hero__tagline {
-    margin: 5rem 0 2rem;
+    margin: 0 0 2rem;
     font-size: 3.75rem;
     font-family: 'Reem Kufi', sans-serif; }
+    @media (min-width: 768px) {
+      .hero__tagline {
+        margin-top: 3rem; } }
   .hero__location {
     text-transform: uppercase;
     font-size: 1.3rem; }
@@ -6051,15 +6078,17 @@ h1 {
           width: 100% !important; } }
 
 .nav {
-  padding: 2rem 0; }
+  padding: 2rem 0 0.5rem;
+  justify-content: center;
+  position: relative; }
   .nav__links {
     list-style: none;
     margin-bottom: 0; }
   .nav__link {
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(13, 81, 102, 0.6);
     font-size: 1.1rem; }
     .nav__link:hover {
-      color: #fff;
+      color: #0D5166;
       text-decoration: none; }
     .nav__link--no-color {
       color: inherit; }
@@ -6068,27 +6097,7 @@ h1 {
   .nav__link-item:not(:first-child) {
     margin-left: 2rem; }
   .nav__logo {
-    height: 2rem; }
-
-.white-button {
-  min-width: 10rem;
-  padding: 0.5rem 1rem;
-  margin: 1.5rem 0;
-  background: #fff;
-  border: 2px solid #fff;
-  border-radius: 0.3rem;
-  color: #0D5166;
-  display: inline-block;
-  transition: background 100ms linear, color 100ms linear; }
-  .white-button:hover {
-    cursor: pointer;
-    background: transparent;
-    color: #fff;
-    text-decoration: none;
-    border-width: 2px; }
-  .white-button--inline {
-    display: inline;
-    margin: 0;
-    min-width: 0; }
-  .white-button--sponsor {
-    color: #237EF1; }
+    height: 5rem; }
+    @media (min-width: 768px) {
+      .nav__logo {
+        height: 3rem; } }
