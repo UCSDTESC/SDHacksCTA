@@ -1,18 +1,18 @@
-.white-button {
+.action-button {
   min-width: 10rem;
-  padding: 0.5rem 1rem;
+  padding: 0.3rem 1rem;
   margin: 1.5rem 0;
-  background: $white;
-  border: 2px solid $white;
+  background: $dark-blue;
+  border: 2px solid $dark-blue;
   border-radius: $border-radius;
-  color: $dark-blue;
+  color: $white;
   display: inline-block;
   transition: background 100ms linear, color 100ms linear;
   
   &:hover {
     cursor: pointer;
     background: transparent;
-    color: $white;
+    color: $dark-blue;
     text-decoration: none;
     border-width: 2px;
   }

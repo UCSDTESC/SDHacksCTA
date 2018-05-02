@@ -14,12 +14,7 @@ $tesc-blue: #004E74;
 
 $cta-gradient: linear-gradient(to right top, $gradient-dark-blue, $gradient-light-blue);
 
-$link-active: $white;
-$link-inactive: transparentize($link-active, 0.2);
-
 $header-color: #5A5A5A;
-
-$hero-font-color: $white;
 
 $contact-underline: #FEEFAE;
 
@@ -87,3 +82,7 @@ $default-card-radius: 10px;
 $default-card-border: 2px solid $default-purple;
 
 $contact-gradient: linear-gradient(to right bottom, $light-purple 33%, $default-purple);
+
+$hero-font-color: $dark-blue;
+$link-active: $dark-blue;
+$link-inactive: transparentize($link-active, 0.4);

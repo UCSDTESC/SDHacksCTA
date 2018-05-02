@@ -1,28 +1,20 @@
 .hero {
   width: 100%;
-  height: 100%;
-  background: linear-gradient(152deg, $default-blue 0, $default-blue 23rem, 
-                                      $beach-blue 23rem, $beach-blue 42rem,
-                                      $beach-tan 42rem, $beach-tan 56rem,
-                                      $beach-lighttan 56rem, $beach-lighttan 70rem,
-                                      $light-green 70rem, $light-green 100%);
-
+  min-height: 100vh;
+  background: url(/assets/gradient-bg.svg);
+  background-size: cover;
   background-repeat: no-repeat;
-  /*linear-gradient(152deg, $default-blue 0, $default-blue 34%, 
-                                      $beach-blue 34%, $beach-blue 54%,
-                                      $beach-tan 54%, $beach-tan 72%,
-                                      $beach-lighttan 72%, $beach-lighttan 88%,
-                                      $light-green 88%, $light-green 100%);*/
   overflow: overlay;  
   color: $hero-font-color;
+
+  
+  @include media-breakpoint-up(md) {
+    min-height: 75vh;
+  }
 
   &--sponsor {
     background: $cta-gradient;
     color: $hero-font-color;
-  }
-
-  @include media-breakpoint-up(md) {
-    min-height: 30rem;
   }
 
   &__logo {
@@ -31,10 +23,14 @@
   }
 
   &__tagline {
-    margin: 5rem 0 2rem;
+    margin: 0 0 2rem;
     font-size: 3.75rem;
     font-family: 'Reem Kufi', sans-serif;
-    //color: $dark-blue;
+    
+    
+    @include media-breakpoint-up(md) {
+      margin-top: 3rem;
+    }
   }
 
   &__location {

@@ -1,5 +1,7 @@
 .nav {
-  padding: 2rem 0;
+  padding: 2rem 0 0.5rem;
+  justify-content: center;
+  position: relative;
   
   &__links {
     list-style: none;
@@ -30,6 +32,10 @@
   }
 
   &__logo {
-    height: 2rem;
+    height: 5rem;
+
+    @include media-breakpoint-up(md) {
+      height: 3rem;
+    }
   }
 }
