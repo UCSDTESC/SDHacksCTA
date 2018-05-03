@@ -6033,7 +6033,6 @@ h1 {
   background: url(/assets/gradient-bg.svg);
   background-size: cover;
   background-repeat: no-repeat;
-  overflow: overlay;
   color: #0D5166; }
   @media (min-width: 768px) {
     .hero {
