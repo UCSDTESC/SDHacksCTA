@@ -22,10 +22,9 @@
   }
 
   &__tagline {
-    margin: 0 0 2rem;
+    margin: 0 0 1rem;
     font-size: 3.75rem;
     font-family: 'Reem Kufi', sans-serif;
-    
     
     @include media-breakpoint-up(md) {
       margin-top: 3rem;
@@ -33,17 +32,27 @@
   }
 
   &__location {
-    text-transform: uppercase;
     font-size: 1.3rem;
+    margin-bottom: 1.2rem;
+
+    &-link {
+      color: $dark-blue;
+      text-decoration: underline;
+
+      &:hover {
+        color: $dark-blue;
+        text-decoration: none;
+      }
+    }
   }
 
   &__date {
-    font-size: 1.1rem;
+    font-size: 1.25rem;
+    margin-bottom: 1.2rem;
   }
 
   &__desc {
     font-size : 1.3rem;
-    //color: $dark-blue;
   }
 
   &__feature-image {
@@ -56,7 +65,7 @@
   }
 
   &__cta {
-    margin-top: 2.2rem;
+    margin-top: 1rem;
   }
 
   &__signup {

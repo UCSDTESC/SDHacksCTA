@@ -6044,17 +6044,24 @@ h1 {
     width: 10rem;
     margin: 5rem 0 2rem; }
   .hero__tagline {
-    margin: 0 0 2rem;
+    margin: 0 0 1rem;
     font-size: 3.75rem;
     font-family: 'Reem Kufi', sans-serif; }
     @media (min-width: 768px) {
       .hero__tagline {
         margin-top: 3rem; } }
   .hero__location {
-    text-transform: uppercase;
-    font-size: 1.3rem; }
+    font-size: 1.3rem;
+    margin-bottom: 1.2rem; }
+    .hero__location-link {
+      color: #0D5166;
+      text-decoration: underline; }
+      .hero__location-link:hover {
+        color: #0D5166;
+        text-decoration: none; }
   .hero__date {
-    font-size: 1.1rem; }
+    font-size: 1.25rem;
+    margin-bottom: 1.2rem; }
   .hero__desc {
     font-size: 1.3rem; }
   .hero__feature-image {
@@ -6065,7 +6072,7 @@ h1 {
     margin-left: 7rem;
     transform: rotate(20deg); }
   .hero__cta {
-    margin-top: 2.2rem; }
+    margin-top: 1rem; }
   .hero__signup {
     width: 100%;
     text-align: left; }
