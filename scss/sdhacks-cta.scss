@@ -18,5 +18,23 @@ h1 {
   color: $header-color;
 }
 
+.mlh-badge {
+	border: none;
+	display: block;
+	max-width: 95px;
+	min-width: 30px;
+	position: fixed;
+	right: 2rem;
+	top: 0;
+	width: 10%;
+	z-index: 100;
 
-@import 'components/all';
+	@include media-breakpoint-down(md) {
+	  left: 2rem;
+	  right: auto;
+	  width: 10%;
+	  max-width: 85px;
+	}
+}
+
+@import 'components/all'
