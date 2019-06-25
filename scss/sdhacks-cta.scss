@@ -18,22 +18,19 @@ h1 {
   color: $header-color;
 }
 
-.mlh-badge {
-	border: none;
+#mlh-trust-badge {
 	display: block;
-	max-width: 95px;
-	min-width: 30px;
+	max-width: 80px;
+	min-width: 60px;
 	position: fixed;
-	right: 2rem;
+	right: 50px;
 	top: 0;
 	width: 10%;
-	z-index: 100;
+	z-index: 10000;
 
 	@include media-breakpoint-down(md) {
-	  left: 2rem;
-	  right: auto;
-	  width: 10%;
-	  max-width: 85px;
+		left: 1rem;
+	  	width: 10%;
 	}
 }
 
