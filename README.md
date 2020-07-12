@@ -1,6 +1,5 @@
 # SDHacksCTA
-Call To Action Page For SDHacks 2019
+Call To Action Page For SDHacks
 
 
 Build with `gulp`
-
